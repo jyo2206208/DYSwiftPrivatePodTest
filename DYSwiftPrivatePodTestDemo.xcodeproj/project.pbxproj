@@ -13,6 +13,10 @@
 		1D61E08E207B415D0039B32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D61E08D207B415D0039B32A /* Assets.xcassets */; };
 		1D61E091207B415D0039B32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D61E08F207B415D0039B32A /* LaunchScreen.storyboard */; };
 		1D61E09C207B415D0039B32A /* DYSwiftPrivatePodTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D61E09B207B415D0039B32A /* DYSwiftPrivatePodTestDemoTests.swift */; };
+		1D61E0A8207B41810039B32A /* DYSwiftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D61E0A7207B41810039B32A /* DYSwiftButton.swift */; };
+		1D61E0AD207B42690039B32A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D61E0AA207B42690039B32A /* README.md */; };
+		1D61E0AE207B42690039B32A /* DYSwiftPrivatePodTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1D61E0AB207B42690039B32A /* DYSwiftPrivatePodTest.podspec */; };
+		1D61E0AF207B42690039B32A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D61E0AC207B42690039B32A /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		1D61E097207B415D0039B32A /* DYSwiftPrivatePodTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYSwiftPrivatePodTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D61E09B207B415D0039B32A /* DYSwiftPrivatePodTestDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYSwiftPrivatePodTestDemoTests.swift; sourceTree = "<group>"; };
 		1D61E09D207B415D0039B32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D61E0A7207B41810039B32A /* DYSwiftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYSwiftButton.swift; sourceTree = "<group>"; };
+		1D61E0AA207B42690039B32A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D61E0AB207B42690039B32A /* DYSwiftPrivatePodTest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DYSwiftPrivatePodTest.podspec; sourceTree = "<group>"; };
+		1D61E0AC207B42690039B32A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,8 @@
 		1D61E07A207B415C0039B32A = {
 			isa = PBXGroup;
 			children = (
+				1D61E0A9207B425C0039B32A /* metadata */,
+				1D61E0A6207B41670039B32A /* DYSwiftPrivatePodTest */,
 				1D61E085207B415C0039B32A /* DYSwiftPrivatePodTestDemo */,
 				1D61E09A207B415D0039B32A /* DYSwiftPrivatePodTestDemoTests */,
 				1D61E084207B415C0039B32A /* Products */,
@@ -94,6 +104,24 @@
 				1D61E09D207B415D0039B32A /* Info.plist */,
 			);
 			path = DYSwiftPrivatePodTestDemoTests;
+			sourceTree = "<group>";
+		};
+		1D61E0A6207B41670039B32A /* DYSwiftPrivatePodTest */ = {
+			isa = PBXGroup;
+			children = (
+				1D61E0A7207B41810039B32A /* DYSwiftButton.swift */,
+			);
+			path = DYSwiftPrivatePodTest;
+			sourceTree = "<group>";
+		};
+		1D61E0A9207B425C0039B32A /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				1D61E0AB207B42690039B32A /* DYSwiftPrivatePodTest.podspec */,
+				1D61E0AC207B42690039B32A /* LICENSE */,
+				1D61E0AA207B42690039B32A /* README.md */,
+			);
+			name = metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D61E0AF207B42690039B32A /* LICENSE in Resources */,
 				1D61E091207B415D0039B32A /* LaunchScreen.storyboard in Resources */,
 				1D61E08E207B415D0039B32A /* Assets.xcassets in Resources */,
+				1D61E0AD207B42690039B32A /* README.md in Resources */,
 				1D61E08C207B415C0039B32A /* Main.storyboard in Resources */,
+				1D61E0AE207B42690039B32A /* DYSwiftPrivatePodTest.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +230,7 @@
 			files = (
 				1D61E089207B415C0039B32A /* ViewController.swift in Sources */,
 				1D61E087207B415C0039B32A /* AppDelegate.swift in Sources */,
+				1D61E0A8207B41810039B32A /* DYSwiftButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -345,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
